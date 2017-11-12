@@ -79,8 +79,10 @@ tags:
 ```
 git pull origin master
 nano _posts/2017-11-12-jekyll-with-minimal-mistakes.md
+git add .; git commit -m 'update'; git push origin master
 ```
 
+(更新されない…と思ったら、ブラウザにキャッシュが残っていただけであった)
 
 ## メタデータ解説
 
@@ -88,7 +90,9 @@ nano _posts/2017-11-12-jekyll-with-minimal-mistakes.md
 - `categories:` やファイル名の一部は URL を形成する
 - `tags:` からタグをつけることができる
 
+その他いろいろ、つけることができる。
+
 ## まとめ
 
-一度作業すれば、記事を書くのはブラウザ上で行える。
-
+- Jekyll + GitHub Pagesは、初期設定をいちどすれば、記事作成はブラウザだけでOK
+- Minimal Mistakesテーマは文字がでかくてゆるふわな印象を与える
